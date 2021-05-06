@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../ii.jpg);
+	height: 100vh;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+
+.container .main .left img{
+	width: 150px;
+	height: auto;
+	
+}
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
+
+.main{
+    display: flex;
+}
+
+.left{
+    background-color: #000099;
+    padding: 20px;
+    width: 35%;
+}
+
+.right{
+    background-color: #fff;
+	
+    width: 70%;
+}
+
+.top{
+    background-color:#000080;
+    height: 150px;
+}
+
+
+.section-container{
+    padding: 20px 0;
+    color: #e8e8e8;
+}
+
+.contact{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.contact .label{
+    width: 100px;
+    color:#ffffff;
+    font-weight: 900;
+}
+
+.contact .value{
+    color: #cce6ff
+}
+
+
+.section-container .head{
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.skill{
+    padding: 5px 0;
+}
+
+.skill-name{
+    padding-bottom: 10px;
+}
+
+.range-container{
+    height: 16px;
+    background-color: #e8e8e8;
+}
+
+.range{
+    height: 16px;
+    background-color: black;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w70{
+    width: 70%
+}
+
+.w50{
+    width: 50%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w10{
+    width: 10%;
+}
+
+.language{
+    padding: 10px 0;
+}
+
+.certification{
+   font-size: 14px;
+   padding: 10px 0;
+}
+
+.profile-info{
+    position: relative;
+    top: 10%;
+    padding: 30px;
+}
+
+.profile-info .name{
+    font-size: 36px;
+    color: White;
+    padding-bottom: 10px;
+}
+
+.profile-info .title{
+    font-size: 28px;
+    color: #fff
+}
+
+.content{
+    padding: 20px;
+}
+
+.section{
+    padding: 10px 0;
+}
+
+.section-head{
+    font-size: 20px;
+    color: #000080;
+    font-weight: 900;
+    padding-bottom: 20px;
+	text-align: center;
+}
+.titlee{
+	font-weight: 900;
+}
+
+.content .detail1{
+    font-weight: 900;
+}
+
+.content p{
+    padding-bottom: 10px;
+}
+
+.about-me .desc{
+    font-size: 16px;
+}
+
+.experience ul{
+    list-style-type: none;
+}
+
+.experience ul li{
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.content .detail2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.separator{
+    position: relative;
+}
+
+.v-line{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: #771179;
+}
+
+.project .section1{
+    text-align: center;
+}
+
+.project .section2{
+    width: 80%;
+}
+
+.project-title{
+    font-weight: 900;
+}
+
+.client{
+    font-weight: 700;
+}
+
+.env-detail{
+    font-size: 16px;
+}
+table, th, td{
+	color: white;
+	width: 500px;
+	background-color: #000080;
+	border: 2px solid white;
+	border-collapse: collapse;
+
+}
+th, td{
+	padding: 15px;
+	max-width: 500px;
+}
+tr :nth-child(even){
+	background-color:#000099
+}
+
