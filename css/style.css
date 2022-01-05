@@ -13,7 +13,9 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-
+.education {
+  margin: 0 auto;
+}
 .container .main .left img {
   width: 150px;
   height: auto;
@@ -134,10 +136,12 @@ body {
   font-size: 36px;
   color: White;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .profile-info .title {
   font-size: 28px;
+  text-align: center;
   color: #fff;
 }
 
